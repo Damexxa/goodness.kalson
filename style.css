@@ -1,0 +1,1926 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+
+}
+
+::-webkit-scrollbar {
+  
+}
+
+body {
+  font-family: sans-serif;
+  overflow-x: clip;
+  max-width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+
+#mainHeader {
+  position: fixed;
+  top: 20px;
+  left: 0;
+  
+  right: 0;
+  max-width: 95%;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+.header {
+     background-image: url(./WhatsApp\ Image\ 2025-07-19\ at\ 07.01.14.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+#testimonial-img {
+  text-align: center;
+}
+
+.logo h1 {
+  color: #e6b57d;
+   font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+header {
+   
+   background-color: #011a16;
+   
+}
+
+.aa {
+  padding-left: 20px;
+  padding-top: 30px;
+}
+.aa h3 {
+  font-weight: 200;
+  padding-bottom: 10px;
+}
+.aa h3 span {
+  font-weight: bold;
+}
+
+.logo img {
+    border-radius: 50px;
+}
+.ab {
+  background-color: #e6b57d;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  line-height: 30px;
+}
+.ab h2 {
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+ /*
+
+  .navbar {
+      background-color: #333;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 15px;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 12px;
+      transition: background 0.3s;
+    }
+
+    .nav-links a:hover {
+      background-color: #555;
+    }
+
+    .menu-icon {
+      display: none;
+      font-size: 24px;
+      cursor: pointer;
+      color: white;
+    }
+
+   */
+   html {
+    scroll-behavior: smooth;
+   }
+   .cursor {
+  display: inline-block;
+  animation: blink 0.7s steps(1) infinite;
+  color: white;
+}
+
+@keyframes blink {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
+}
+
+    nav {
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #011a16;
+        z-index: 1000;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 50px;
+        
+    }
+
+    .book {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 35vh;
+        z-index: -10000;
+    }
+    .us li {
+      list-style: none;
+      font-weight: bold;
+      padding-bottom: 10px;
+    }
+
+    .us {
+      padding-left: 30px;
+      padding-top: 30px;
+      background-image: url(../kk.jpeg);
+      margin-bottom: 50px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-bottom: 30px;
+    }
+    .us h2 {
+      padding-bottom: 20px;
+    }
+    .oo {
+      padding-left: 20px;
+      padding-top: 30px ;
+
+    }
+    .gift {
+      padding-top: 30px;
+      text-align: center;
+    }
+
+    .how {
+      padding-top: 50px;
+      text-align: center;
+     
+    }
+
+    .how h4 {
+      font-weight: bolder;
+      padding: 10px;
+    }
+    .how p {
+      padding-bottom: 30px;
+    }
+    
+
+    .gallery {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+      max-width: 600px;
+      margin: 50px auto;
+    }
+
+    .image-container {
+      height: 60px;
+      overflow: hidden;
+      transition: height 0.4s ease;
+      border-radius: 12px;
+      cursor: pointer;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .image-container.expanded {
+      height: 400px;
+    }
+    .image-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .image-container:hover {
+      height: 400px;
+    } 
+
+    .oo img {
+      border-radius: 20px;
+    }
+     .usa button::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        right: 50%;
+        opacity: 0;
+        z-index: -1;
+        background-color: black;
+        transition: .5s all ease;
+    }
+
+       .usa button:hover:before {
+        left: 0;
+        right: 0;
+        opacity: 1;
+    }
+
+    .usa button:hover {
+        color: #fff;
+    }
+  
+    .usa button {
+          margin-top: 0px;
+        font-family: sans-serif;
+        position: relative;
+        border: 3px solid #e6b57d;
+        cursor: pointer;
+        color: #0f3c32;
+        z-index: 1;
+        background-color: #fdf9f2;
+        padding: 15px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+        
+        border: 2px solid rgba(206, 206, 206, 206);
+        box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;
+          
+    }
+    .us button {
+       margin-top: 30px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        position: relative;
+        border: 3px solid;
+        color: #0f3c32;
+        margin-bottom: 50px;
+        z-index: 1;
+        background-color: #fdf9f2;
+        padding: 15px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 50px;
+        border: 2px solid rgba(206, 206, 206, 206);
+        box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;
+          
+    }
+
+    .us button::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        right: 50%;
+        opacity: 0;
+        z-index: -1;
+        background-color: black;
+        transition: .5s all ease;
+    }
+
+       .us button:hover:before {
+        left: 0;
+        right: 0;
+        opacity: 1;
+    }
+
+    .us button:hover {
+        color: #fff;
+    }
+  
+
+    #bttns {
+        
+        font-family: sans-serif;
+        position: relative;
+        border: 3px solid;
+        color: white;
+        z-index: 1;
+        border-radius: 20px;
+        background-color: #e6b57d;
+        cursor: pointer;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+        border: 50px;
+        border: 2px solid rgba(206, 206, 206, 206);
+
+    
+    }
+    .ooo {
+      background-image: url(./WhatsApp\ Image\ 2025-07-23\ at\ 05.32.12\ \(2\).jpeg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      color: white;
+      padding-left: 50px;
+      width: 100%;
+      
+    }
+    .ooo h2 {
+      padding-top: 150px;
+      padding-bottom: 20px;
+      
+    }
+     .ooo p {
+      max-width: 80%;
+      line-height: 30px;
+      font-weight: bold;
+      padding-bottom: 30px;
+     }
+     .ooo button {
+         font-family: sans-serif;
+        position: relative;
+        border: 3px solid;
+        background-color: transparent;
+        z-index: 1;
+        
+        cursor: pointer;
+        padding: 15px;
+        font-weight: bold;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+       
+        border: 2px solid white;
+        color: white;
+        cursor: pointer;
+    
+     }
+    .dis button {
+        margin-top: 30px;
+        font-family: sans-serif;
+        position: relative;
+        border: 3px solid;
+        color: #0f3c32;
+        z-index: 1;
+        background-color: #fdf9f2;
+        cursor: pointer;
+        padding: 15px;
+        font-weight: bold;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+       bo
+        border: 2px solid rgba(206, 206, 206, 206);
+        box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;
+    
+    }
+
+        .os button {
+        margin-top: 30px;
+        font-family: sans-serif;
+        position: relative;
+        border: 3px solid;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        z-index: 1;
+        text-align: center;
+        background-color: #e6b57d;
+        cursor: pointer;
+        padding: 15px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 50px;
+        border: 2px solid rgba(206, 206, 206, 206);
+        
+    
+    }
+
+
+    .book button::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        right: 50%;
+        opacity: 0;
+        z-index: -1;
+        background-color: black;
+        transition: .5s all ease;
+    }
+    .ooo button::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        right: 50%;
+        opacity: 0;
+        z-index: -1;
+        background-color: black;
+        transition: .5s all ease;
+    }
+    .dis button::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        right: 50%;
+        opacity: 0;
+        z-index: -1;
+        background-color: black;
+        transition: .5s all ease;
+    }
+    
+    .hat button::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        right: 50%;
+        opacity: 0;
+        z-index: -1;
+        background-color: black;
+        transition: .5s all ease;
+    }
+        .wig button::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        right: 50%;
+        opacity: 0;
+        z-index: -1;
+        background-color: black;
+        transition: .5s all ease;
+    }
+    .hatpo button::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        right: 50%;
+        opacity: 0;
+        z-index: -1;
+        background-color: black;
+        transition: .5s all ease;
+    }
+     .hatp button::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        right: 50%;
+        opacity: 0;
+        z-index: -1;
+        background-color: black;
+        transition: .5s all ease;
+    }
+     .hato button::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        right: 50%;
+        opacity: 0;
+        z-index: -1;
+        background-color: black;
+        transition: .5s all ease;
+    }
+     .hato button::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        right: 50%;
+        opacity: 0;
+        z-index: -1;
+        background-color: black;
+        transition: .5s all ease;
+    }
+    .hatz button::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        right: 50%;
+        opacity: 0;
+        z-index: -1;
+        background-color: black;
+        transition: .5s all ease;
+    }
+    
+     #bttn::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        right: 50%;
+        opacity: 0;
+        z-index: -1;
+        background-color: black;
+        transition: .5s all ease;
+    }
+       #box::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        right: 50%;
+        opacity: 0;
+        z-index: -1;
+        background-color: black;
+        transition: .5s all ease;
+    }
+     #back::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        right: 50%;
+        opacity: 0;
+        z-index: -1;
+        background-color: black;
+        transition: .5s all ease;
+    }
+    #bot::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        right: 50%;
+        opacity: 0;
+        z-index: -1;
+        background-color: black;
+        transition: .5s all ease;
+    }
+     .porin::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        right: 50%;
+        opacity: 0;
+        z-index: -1;
+        background-color: black;
+        transition: .5s all ease;
+    }
+
+     .os button::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        right: 50%;
+        opacity: 0;
+        z-index: -1;
+        background-color: black;
+        transition: .5s all ease;
+    }
+   /* .nav {
+      position: relative;
+      right: 8%;
+      z-index: 1000;
+      background-color: #333;
+      
+    }
+
+      */
+      .porin a {
+        text-decoration: none;
+      }
+      #bot button:hover:before {
+        left: 0;
+        right: 0;
+        opacity: 1;
+    }
+    .book button:hover:before {
+        left: 0;
+        right: 0;
+        opacity: 1;
+    }
+    .ooo button:hover:before {
+        left: 0;
+        right: 0;
+        opacity: 1;
+    }
+      .dis button:hover:before {
+        left: 0;
+        right: 0;
+        opacity: 1;
+    }
+    .hat button:hover:before {
+        left: 0;
+        right: 0;
+        opacity: 1;
+    }
+    .wig button:hover:before {
+        left: 0;
+        right: 0;
+        opacity: 1;
+    }
+      .hatp button:hover:before {
+        left: 0;
+        right: 0;
+        opacity: 1;
+    }
+    .hatpo button:hover:before {
+        left: 0;
+        right: 0;
+        opacity: 1;
+    }
+     .hatz button:hover:before {
+        left: 0;
+        right: 0;
+        opacity: 1;
+    }
+      #bttn:hover:before {
+        left: 0;
+        right: 0;
+        opacity: 1;
+        color: white;
+    }
+    
+      #box:hover:before {
+        left: 0;
+        right: 0;
+        opacity: 1;
+        color: white;
+    }
+      #back:hover:before {
+        left: 0;
+        right: 0;
+        opacity: 1;
+        color: white;
+    }
+     .porin:hover:before {
+        left: 0;
+        right: 0;
+        opacity: 1;
+        color: white;
+    }
+    .os button:hover:before {
+        left: 0;
+        right: 0;
+        opacity: 1;
+    }
+    .office {
+      margin-bottom: 20px;
+      background-color: #011a16;
+      padding-top: 40px;
+      font-size: larger;
+      font-weight: 100;
+      padding-bottom: 30px;
+      color: white;
+      padding-left: 20px;
+      text-align: center;
+      margin-top: 30px;
+      margin-left: 20px;
+      margin-right: 20px;
+      font-family: sans-serif;
+    }
+    .office h2 {
+      font-weight: 100;
+      padding-bottom: 20px;
+    }
+      .cc {
+      margin-bottom: 20px;
+      background-color: #011a16;
+      padding-top: 40px;
+      font-size: larger;
+      font-weight: 100;
+      padding-bottom: 30px;
+      color: white;
+      padding-left: 20px;
+      text-align: center;
+      margin-top: 30px;
+      margin-left: 20px;
+      margin-right: 20px;
+      font-family: sans-serif;
+    }
+    .cc h3 {
+      font-weight: 100;
+      padding-bottom: 20px;
+    }
+    .office h3 {
+      font-weight: 100;
+      padding-bottom: 10px;
+      padding-top: 40px;
+    }
+    .cc span {
+      font-weight: bold;
+    }
+      .porin span {
+      font-weight: bold;
+    }
+    .porin h3 {
+      font-weight: 100;
+      font-size: 30px;
+      padding-bottom: 20px;
+      padding-top: 50px;
+      font-family: sans-serif;
+    }
+    .porin h4 {
+      font-size: 200;
+      padding-bottom: 10px;
+    }
+    .nn {
+      margin-bottom: 20px;
+      background-color: #011a16;
+      padding-top: 40px;
+      font-size: large;
+      font-weight: 100;
+      padding-bottom: 30px;
+      color: white;
+      padding-left: 20px;
+      
+      margin-top: 30px;
+      margin-left: 20px;
+      margin-right: 20px;
+      font-family: sans-serif; 
+    }
+   .nn input {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 13px;
+   }
+   #see {
+              margin-top: 30px;
+        font-family: sans-serif;
+        position: relative;
+        border: 3px solid;
+        color: #0f3c32;
+        margin-bottom: 30px;
+        z-index: 1;
+        background-color: #fdf9f2;
+        cursor: pointer;
+        padding: 15px;
+        font-weight: bold;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+       bo
+        border: 2px solid rgba(206, 206, 206, 206);
+        box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;
+    
+   }
+   .map {
+    padding-left: 20px;
+    max-width: 97%;
+    margin-bottom: 20px;
+   }
+   .navbar {
+  background-color: #011a16;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  position: relative;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Navigation links */
+.nav-links {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  background-color: #111;
+  width: 100%;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #ff9900;
+}
+
+/* Toggle button (hamburger) */
+
+.opuehh {
+  color: white;
+  list-style: none;
+  background-color: #011a16;
+  
+  padding-top: 130px;
+  padding-bottom: 20px;
+  z-index: 10000;
+}
+.opuehh ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  color: white;
+
+}
+
+.opuehh a {
+  text-decoration: none;
+  color: #fff;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+
+.toggle-btn {
+  font-size: 24px;
+  background: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .toggle-btn {
+    display: block;
+  }
+  .map {
+    overflow-x: hidden;
+  }
+  .nav-links {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 20px;
+    background-color: #1a1a1a;
+    flex-direction: column;
+  
+    border-radius: 5px;
+    cursor: pointer;
+    list-style: none;
+    gap: 20px;
+    text-align: center;
+    padding: 15px 0;
+    z-index: 1000;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+}
+
+    .nn select {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 13px;
+    width: 70%;
+   }
+
+
+
+    .book button:hover {
+        color: #fff;
+    }
+     .os button:hover {
+        color: #fff;
+    }
+
+    .book h1 {
+        color: white;
+    }
+    .our {
+        background-color: #fdf9f2;
+        padding-bottom: 30px;
+        
+    }
+
+    .our h2 {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        flex-wrap: nowrap;
+    }
+    .about h2 {
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 50px;
+    }
+
+    .i img {
+        border-radius: 50px;
+      
+      
+    }
+
+    #testimonial-section {
+      margin: 20px auto;
+      max-width: 400px;
+      padding: 40px;
+      text-align: center;
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .contact {
+      padding-bottom: 50px;
+      padding-left: 20px;
+    }
+
+    .ff {
+      background-color: darkgreen;
+      color: white;
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .contact h2 {
+      color: white;
+      padding-top: 30px;
+      padding-bottom: 20px;
+      text-align: center;
+    }
+
+    .a {
+      display: flex;
+     justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .contact {
+      background-image: url(./baaal.jpeg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .review {
+      text-align: center;
+      margin-top: 30px;
+      background-color: #fdf9f2;
+      padding-bottom: 50px;
+      padding-top: 30px;
+    }
+
+    .testimonial {
+      display: none;
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+    }
+
+    .testimonial.active {
+      display: block;
+      opacity: 1;
+    }
+
+    .i {
+        display: flex;
+        gap: 20px;
+    }
+    .about p {
+        padding-left: 20px;
+        max-width: 40%;
+        padding: 20px;
+    }
+    .service {
+        display: flex;
+        gap: 150px;
+        flex-wrap: wrap;
+        padding-left: 30px;
+    }
+    .service h4 {
+        padding-top: 40px;
+    }
+    .p {
+        font-size: medium;
+
+    }
+
+    .o {
+        display: flex;
+        justify-content: space-around;
+    }
+    .be {
+      background-color: #2c2c2c;
+      color: white;
+      text-align: center;
+      padding-top: 30px;
+      padding-bottom: 20px;
+    }
+
+    .be h2 {
+      padding-bottom: 15px;
+    }
+    .com {
+      padding-left: 20px;
+    }
+    .os button {
+
+    }
+    .os {
+      padding-left: 20px;
+      margin-top: 100px;
+      padding-bottom: 40px;
+    }
+    .os h2 {
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    .os p {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .hat {
+      background-image: url(./WhatsApp\ Image\ 2025-07-23\ at\ 03.45.17.jpeg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      padding-left: 30px;
+      
+    }
+    .hat h2 {
+      padding-top: 150px;
+      padding-bottom: 20px;
+      font-weight: 100;
+      font-size: 30px;
+
+    }
+    .hatz {
+      background-image: url(./WhatsApp\ Image\ 2025-07-23\ at\ 09.12.39.jpeg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      padding-left: 30px;
+      color: white;
+    }
+     .hato {
+      background-image: url(./WhatsApp\ Image\ 2025-07-23\ at\ 09.30.00.jpeg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      padding-left: 50px;
+      color: black;
+    }
+    .hatz h2 {
+      padding-top: 150px;
+      padding-bottom: 20px;
+      font-weight: 100;
+      font-size: 30px;
+
+    }
+     .hato h2 {
+      padding-top: 150px;
+      padding-bottom: 20px;
+      font-weight: 100;
+      font-size: 30px;
+
+    }
+     .wig {
+      background-image: url(./WhatsApp\ Image\ 2025-07-23\ at\ 10.00.32.jpeg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      padding-left: 20px;
+      color: black;
+    }
+     .hatp {
+      background-image: url(./WhatsApp\ Image\ 2025-07-23\ at\ 11.15.13_7594e958.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      padding-left: 30px;
+      color: black;
+    }
+     .hatpo {
+      background-image: url(./WhatsApp\ Image\ 2025-07-23\ at\ 13.18.33_3bb05f82.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      padding-left: 30px;
+      color: black;
+    }
+    h2 {
+      font-family: monospace;
+    }
+    p {
+        font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    }
+    .wig h2 {
+      padding-top: 100px;
+      padding-bottom: 20px;
+      font-weight: 100;
+      font-size: 30px;
+
+    }
+     .hatp h2 {
+      padding-top: 150px;
+      padding-bottom: 20px;
+      font-weight: 100;
+      font-size: 30px;
+
+    }
+      .hatpo h2 {
+      padding-top: 150px;
+      padding-bottom: 20px;
+      font-weight: 100;
+      font-size: 30px;
+
+    }
+     .wig h2 {
+      padding-top: 100px;
+      padding-bottom: 20px;
+      font-weight: 100;
+      font-size: 30px;
+
+    }
+    #bttn  {
+         padding: 10px;
+      cursor: pointer;
+      border: 1.5px solid;
+      font-family: sans-serif;
+      position: relative;
+      border: 3px solid;
+       margin-top: 50px;
+       display: block;
+       margin-bottom: 20px;
+       text-align: center;
+      font-weight: bold;
+      z-index: 1;
+        text-align: center;
+        
+        
+       
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+        
+        border: 2px solid rgba(206, 206, 206, 206);
+        box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;
+    
+    }
+     #box  {
+         padding: 10px;
+      cursor: pointer;
+      border: 1.5px solid;
+      font-family: sans-serif;
+      position: relative;
+      border: 3px solid;
+       margin-top: 50px;
+       display: block;
+       margin-bottom: 20px;
+       text-align: center;
+      font-weight: bold;
+      z-index: 1;
+        text-align: center;
+        background-color: #e6b57d;
+        color: #f1f1f1;
+        margin-left: 40%;
+        
+       
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+        
+        border: 2px solid rgba(206, 206, 206, 206);
+       
+    }
+    #back {
+         padding: 10px;
+      cursor: pointer;
+      border: 1.5px solid;
+      font-family: sans-serif;
+      position: relative;
+      border: 3px solid;
+       margin-top: 50px;
+       display: block;
+       margin-bottom: 20px;
+       text-align: center;
+      font-weight: bold;
+      z-index: 1;
+        text-align: center;
+        color: white;
+        
+        
+       
+       background-color: #e6b57d;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+        
+        border: 2px solid rgba(206, 206, 206, 206);
+        
+    
+    }
+    .goo {
+      background-image: url(./ggg.jpeg);
+      height: 100vh;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+    #bot  {
+         padding: 10px;
+      cursor: pointer;
+      border: 1.5px solid green;
+      font-family: sans-serif;
+      position: relative;
+      border: 3px solid;
+       margin-top: 50px;
+       display: block;
+       margin-bottom: 20px;
+       text-align: center;
+      font-weight: bold;
+      z-index: 1;
+        text-align: center;
+        
+        
+        
+       
+       background-color: green;
+        
+        border: 2px solid rgba(206, 206, 206, 206);
+       color: #bcbcbc;
+    
+    }
+      #bttnn  {
+         padding: 10px;
+      cursor: pointer;
+      border: 1.5px solid green;
+      font-family: sans-serif;
+      position: relative;
+      border: 3px solid;
+       margin-top: 50px;
+       display: block;
+       margin-bottom: 20px;
+       text-align: center;
+      font-weight: bold;
+      z-index: 1;
+        text-align: center;
+        
+        padding: 15px;
+        
+       
+       background-color: #e6b57d;
+        
+        border: 2px solid rgba(206, 206, 206, 206);
+       color: white;
+    
+    }
+        .hatp button {
+         padding: 10px;
+      cursor: pointer;
+      border: 1.5px solid;
+      font-family: sans-serif;
+      position: relative;
+      border: 3px solid;
+       margin-top: 50px;
+       display: block;
+       margin-bottom: 20px;
+       text-align: center;
+      font-weight: bold;
+      z-index: 1;
+        text-align: center;
+        
+        
+       
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+        
+        border: 2px solid rgba(206, 206, 206, 206);
+        box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;
+    
+    }
+            .hatpo button {
+         padding: 10px;
+      cursor: pointer;
+      border: 1.5px solid;
+      font-family: sans-serif;
+      position: relative;
+      border: 3px solid;
+       margin-top: 50px;
+       display: block;
+       margin-bottom: 20px;
+       text-align: center;
+      font-weight: bold;
+      z-index: 1;
+        text-align: center;
+        
+        
+       
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+        
+        border: 2px solid rgba(206, 206, 206, 206);
+        box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;
+    
+    }
+    .dis {
+      padding-top: 50px;
+      padding-left: 20px;
+      
+      padding-bottom: 100px;
+      background-color: #bcbcbc;
+      
+    }
+    .dis p {
+      max-width: 95%;
+    }
+
+    .dis h3 {
+      font-size: 30px;
+      font-weight: 100;
+    }
+     .wig button {
+      padding: 10px;
+      cursor: pointer;
+      border: 1.5px solid;
+      font-family: sans-serif;
+      position: relative;
+      border: 3px solid;
+       
+      font-weight: bold;
+      z-index: 1;
+        text-align: center;
+        
+        
+       
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+        
+        border: 2px solid rgba(206, 206, 206, 206);
+        box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;
+    
+    }
+    .wig p {
+      max-width: 80%;
+      padding-bottom: 80px;
+    }
+    .wig h2 span {
+      font-weight: bold;
+    }
+    .hatp h2 span {
+      font-weight: bold;
+    }
+     .hatpo h2 span {
+      font-weight: bold;
+    }
+    .hat button {
+      padding: 10px;
+      cursor: pointer;
+      border: 1.5px solid;
+      font-family: sans-serif;
+      position: relative;
+      border: 3px solid;
+       
+      font-weight: bold;
+      z-index: 1;
+        text-align: center;
+        
+        
+       
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+        
+        border: 2px solid rgba(206, 206, 206, 206);
+        box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;
+    
+    }
+    .hat p {
+      max-width: 80%;
+      padding-bottom: 80px;
+    }
+    .hat h2 span {
+      font-weight: bold;
+    }
+    .hatz button {
+      padding: 10px;
+      cursor: pointer;
+      border: 1.5px solid;
+      font-family: sans-serif;
+      position: relative;
+      border: 3px solid;
+       
+      font-weight: bold;
+      z-index: 1;
+        text-align: center;
+        
+        
+       
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+        
+        border: 2px solid rgba(206, 206, 206, 206);
+        box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;
+    
+    }
+     .hat button {
+      padding: 10px;
+      cursor: pointer;
+      border: 1.5px solid;
+      font-family: sans-serif;
+      position: relative;
+      border: 3px solid;
+       
+      font-weight: bold;
+      z-index: 1;
+        text-align: center;
+        
+        
+       
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+        
+        border: 2px solid rgba(206, 206, 206, 206);
+        box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;
+    
+    }
+     .wig button {
+      padding: 10px;
+      cursor: pointer;
+      border: 1.5px solid;
+      font-family: sans-serif;
+      position: relative;
+      border: 3px solid;
+       
+      font-weight: bold;
+      z-index: 1;
+        text-align: center;
+        
+        
+       
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+        
+        border: 2px solid rgba(206, 206, 206, 206);
+        box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;
+    
+    }
+    .hato p {
+      max-width: 80%;
+      padding-bottom: 80px;
+    }
+    .hato h2 span {
+      font-weight: bold;
+    }
+    .hato button {
+      padding: 10px;
+      cursor: pointer;
+      border: 1.5px solid;
+      font-family: sans-serif;
+      position: relative;
+      border: 3px solid;
+       
+      font-weight: bold;
+      z-index: 1;
+        text-align: center;
+        
+        
+       
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+        
+        border: 2px solid rgba(206, 206, 206, 206);
+        box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;
+    
+    }
+    .hatz p {
+      max-width: 80%;
+      padding-bottom: 80px;
+    }
+    .hatz h2 span {
+      font-weight: bold;
+    }
+    .dis h3 span {
+      font-weight: bold;
+    }
+     .polygan {
+      background-image: url(./WhatsApp\ Image\ 2025-07-23\ at\ 13.19.26_b9610fb1.jpg);
+      height: 75vh;
+      max-width: 80%;
+      cursor: pointer;
+      margin-top: 20px;
+  
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-blend-mode: overlay;
+      background-color: initial;
+    }
+     .polygons {
+      background-image: url(./WhatsApp\ Image\ 2025-07-23\ at\ 13.18.49_a6b10a04.jpg);
+      height: 75vh;
+      max-width: 80%;
+      cursor: pointer;
+      margin-top: 20px;
+  
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-blend-mode: overlay;
+      background-color: initial;
+    }
+    .polygon {
+      background-image: url(./WhatsApp\ Image\ 2025-07-23\ at\ 14.28.23_f58e7c00.jpg);
+      height: 75vh;
+      max-width: 80%;
+      cursor: pointer;
+      margin-top: 20px;
+  
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-blend-mode: overlay;
+      background-color: initial;
+    }
+    .barb {
+      background-image: url(./bb.jpeg);
+      height: 75vh;
+      max-width:95%;
+      cursor: pointer;
+      margin-top: 20px;
+      border-radius: 20px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-blend-mode: overlay;
+      background-color: initial;
+    }
+
+    .opoo {
+      background-image: url(./WhatsApp\ Image\ 2025-07-22\ at\ 00.17.41.jpeg);
+      height: 75vh;
+      cursor: pointer;
+      max-width: 95%;
+      border-radius: 20px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-blend-mode: overlay;
+      background-color: initial;
+    }
+    .opos {
+      background-image: url(./WhatsApp\ Image\ 2025-07-22\ at\ 00.17.40\ \(1\).jpeg);
+      height: 75vh;
+      margin-top: 30px;
+      cursor: pointer;
+      max-width: 95%;
+      border-radius: 20px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-blend-mode: overlay;
+      background-color: initial;
+    }
+    .opay {
+      background-image: url(./WhatsApp\ Image\ 2025-07-22\ at\ 00.17.40.jpeg);
+      height: 75vh;
+      margin-top: 30px;
+      max-width: 95%;
+      cursor: pointer;
+      border-radius: 20px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-blend-mode: overlay;
+      background-color: initial;
+    }
+
+     .palm {
+      background-image: url(./WhatsApp\ Image\ 2025-07-22\ at\ 00.17.38.jpeg);
+      height: 75vh;
+      margin-top: 30px;
+      max-width: 95%;
+      cursor: pointer;
+      border-radius: 20px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-blend-mode: overlay;
+      background-color: initial;
+    }
+
+    
+     .palm {
+      background-image: url(./WhatsApp\ Image\ 2025-07-22\ at\ 00.17.38.jpeg);
+      height: 75vh;
+      margin-top: 30px;
+      max-width: 95%;
+      border-radius: 20px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-blend-mode: overlay;
+      background-color: initial;
+    }
+
+    .opop {
+      padding-bottom: 10px;
+      font-size: 14px;
+      letter-spacing: 2px;
+        font-family: "Bodoni Moda", serif;
+      font-optical-sizing: auto;
+    font-weight: <weight>;
+      font-style: normal;
+
+    }
+    .oooopp {
+      background-color: #e6b57d;
+    }
+    #typewriter {
+        font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+    }
+    .opop span {
+      font-family: "Bodoni Moda", serif;
+     font-style: italic;
+     
+      
+    }
+    .wel {
+      background-color: #1a1a1a;
+      color: white;
+      text-align: center;
+      padding: 30px;
+    }
+    .wel h2 {
+      font-weight: 100;
+      padding-bottom: 10px;
+    }
+    .wel h2 span {
+      font-weight: bolder;
+      
+    }
+    .wel p {
+      line-height: 30px;
+      padding-bottom: 30px;
+    }
+    .ee {
+      margin-top: 50px;
+      padding-left: 20px;
+    }
+    .aab {
+      background-image: url(./oop.jpeg);
+      background-position: center;
+      height: 45vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      margin-top: 10px;
+    }
+    .underline {
+      width: 50px;
+      height: 5px;
+      background-color: #e6b57d;
+      margin: 0 auto 20px auto;
+      border-radius: 5px;
+    }
+    .underline1 {
+      width: 50px;
+      height: 5px;
+      background-color: black;
+      
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    .po {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin-right: 89px;
+    }
+    .po p {
+      max-width: 90%;
+      padding-top: 20px;
+      padding-left: 20px;
+    }
+    .po h4 {
+      padding-top: 30px;
+    }
+        .pa {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin-right: 89px;
+    }
+    .pa p {
+      max-width: 90%;
+      padding-top: 20px;
+      padding-left: 20px;
+    }
+    .pa h4 {
+      padding-top: 30px;
+    }
+       .pant {
+      background-color: yellowgreen;
+      color: white;
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin-right: 89px;
+    }
+    .pant p {
+      max-width: 90%;
+      padding-top: 20px;
+      padding-left: 20px;
+    }
+   .porin {
+    margin-top: 40px;
+    background-color: #f1f1f1;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+   }
+   
+   .porin h2 {
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+   }
+   
+    .pant h4 {
+      padding-top: 30px;
+    }
+    .abs {
+      padding-top: 50px;
+      padding-left: 20px;
+      max-width: 95%;
+      margin-bottom: 30px;
+    }
+    #box {
+
+    }
+    .look {
+      background-color: #011a16;
+      color: white;
+      text-align: center;
+      padding-top: 50px;
+      padding-bottom: 30px;
+    }
+    .look p {
+      padding: 15px;
+    }
+    .abs h2 {
+      font-weight: 100;
+    }
+    .abs span {
+      font-weight: bold;
+    }
+
+    /* Mobile styles */
+    @media (max-width: 768px) {
+      .opoo {
+        height: 50vh;
+      }
+      .goo {
+        background-size: cover;
+      }
+      .barb {
+        height: 50vh;
+      }
+      .polygon {
+      height: 50vh;
+      margin-right: 89px;
+      }
+       .polygons {
+      height: 50vh;
+      margin-right: 89px;
+      }
+        .polygan {
+      height: 50vh;
+      margin-right: 89px;
+      }
+      .opos {
+        height: 50vh;
+      }
+      
+      .opay {
+        height: 50vh;
+      }
+
+       .palm {
+        height: 50vh;
+      }
+      .header {
+          background-size: contain;
+          background-color: #011a16;
+          height: 100vh;
+          background-position: center;
+          
+      }
+      .nav-toggle {
+    display: block;
+  }
+  #nav-menu {
+    display: none;
+  }
+  #nav-menu.show {
+    display: block;
+  }
+  .navbar li {
+    display: block;
+    padding: 10px;
+    
+  }
+}
+
+     /* .nav-links {
+        display: none;
+        cursor: pointer;
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 40px;
+        right: 0;
+        width: 180px;
+        padding: 10px 0;
+        border: 1px solid #444;
+        z-index: 999;
+      }
+
+      .nav-links a {
+        padding: 10px 15px;
+        color: white;
+        text-decoration: none;
+        display: block;
+      }
+
+      .nav-links.active {
+        display: flex;
+      }
+
+      .menu-icon {
+        display: block;
+        font-size: 24px;
+        padding: 10px;
+        z-index: 10001;
+      }
+
+      .nav {
+        position: relative;
+      }*/
+
+      
+    }
+
+  .navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #ccc;
+}
+
+.nav-toggle {
+  display: none;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+     <div id="mainHeader">
+     <nav class="navbar">
+    <div class="logo">G.Kalson</div>
+    <button class="toggle-btn" onclick="toggleMenu()">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="./book.html">Book Appointment</a></li>
+    </ul>
+  </nav>
+ </div>
+  <div class="hatp">
+    <h2>General <span>Service for</span> Men</h2>
+    <p>Our grooming services include precision haircuts and professional dreadlock care tailored to men’s style and maintenance needs. Whether you’re looking for a fresh cut, a clean-up, or dreadlock styling and retwisting, our experienced barbers are here to deliver sharp, confident looks. Please feel free to contact us for more information or to schedule an appointment. </p>
+    <button>Book Now >></button>
+</div> 
+<div class="dis">
+    <h3>Discover <br>Our <span>Wide Range</span> of Hair<br>Services</h3>
+    <div class="underline1"></div>
+    <p style="padding-top: 10px;">At our salon, you can explore an extensive range of hair services that cater to all your hair care needs. From rejuvenating hair treatments to intricate braids and flawless installs, we offer it all. Our skilled stylists are trained to create custom handmade wigs and provide meticulous wig laundry services to ensure your hairpieces look and feel their best. If you’re looking to refresh your look with a vibrant hair color treatment or add a touch of glamour with a customized wig, our team is here to make your hair dreams come true.</p>
+    <p style="padding-top: 20px;">
+        In addition to our comprehensive range of services, we specialize in natural hair-finishing styles that celebrate and enhance your unique texture and beauty. Our stylists are passionate about empowering you to embrace your natural hair with confidence, offering sleek and sophisticated styles to effortlessly chic looks. With meticulous attention to detail and a commitment to excellence, we invite you to explore our diverse range of hair services and discover the perfect solution to elevate your haircare routine.
+    </p>
+    <a href="./book.html">
+         <button id="bttn">Book Now >></button>
+    </a>
+   <a href="">
+        <button>Book Home Service >></button>
+   </a>
+    
+    
+</div> 
+<script>
+    function toggleMenu() {
+      const nav = document.getElementById('navLinks');
+      nav.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>

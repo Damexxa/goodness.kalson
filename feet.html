@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+      <div id="mainHeader">
+     <nav class="navbar">
+    <div class="logo"><h1>G.Kalson</h1></div>
+    <button class="toggle-btn" onclick="toggleMenu()">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="./book.html">Book Appointment</a></li>
+    </ul>
+  </nav>
+ </div>
+     <div class="hatz">
+    <h2>Happy <span>Hands and Feet</span> </h2>
+    <p>Our expert nail team offers a curated menu of trendsetting designs, from classic French tips to playful dainty dots and fiery flames. Whether you’re in need of a manicure or pedicure, our nail salon has you covered with a range of options to suit your every whim and desire. </p>
+    <button>Book Now >></button>
+</div> 
+<div class="dis">
+    <h3><br><span>Professional</span> Nail Care Bar</h3>
+    <div class="underline1"></div>
+    <p style="padding-top: 10px;">   At our salon, professional nail care services are more than just a cosmetic treatment – they’re a commitment to promoting healthier, more beautiful nails while elevating your personal style. Our dedicated team of nail technicians understands that nails are not just an accessory but an expression of your personality. That’s why we take the time to consult with each client, listening carefully to their preferences and desires to create nail looks that perfectly match their unique persona.</p>
+    <p style="padding-top: 20px;"> Beyond aesthetics, we prioritize the health and well-being of your nails. With our meticulous attention to detail and use of high-quality products, we strive to promote nail health and longevity with every service. Whether you’re looking for a classic manicure, a bold nail art design, or a relaxing pedicure, you can trust our expert team to deliver exceptional results that leave you feeling pampered, confident, and ready to showcase your individual style to the world.
+    </p>
+    <a href="./book.html">
+         <button id="bttn">Book Now >></button>
+    </a>
+   <a href="">
+        <button>Book Home Service >></button>
+   </a>
+    
+    
+</div>
+<script>
+    function toggleMenu() {
+      const nav = document.getElementById('navLinks');
+      nav.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>

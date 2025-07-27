@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+  </head>
+<body>
+   <div id="mainHeader">
+     <nav class="navbar">
+    <div class="logo"><H1>G.Kalson</H1></div>
+    <button class="toggle-btn" onclick="toggleMenu()">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./salon.html">Services</a></li>
+      <li><a href="./book.html">Book Appointment</a></li>
+    </ul>
+   </nav>
+   </div>
+     <div class="wig">
+    <h2 style="padding-top: 150px; font-family: monospace;">Professional <span>Wig Styling</span> Services</h2>
+    <p>We understand that owning a wig is just the beginning – maintaining its versatility and styling is key to meeting every occasion with confidence. Our expert stylists specialize in bringing out the best in your wig, ensuring it’s always ready to slay any look you desire. From sleek and sophisticated to bold and glamorous, trust us to keep your wig looking flawless and fabulous for every occasion.</p>
+    <button>Book Now >></button>
+</div> 
+<div class="dis">
+    <h3>Wig Styled at<br><span> Your Convenience</span></h3>
+    <div class="underline1"></div>
+    <p style="padding-top: 10px;">  With convenient pickup and drop-off options available, we make it easy for you to send in your wig and have it styled to perfection. Trust our team to ensure your wig is beautifully packaged and sent straight to you, no matter your location.</p>
+    <p style="padding-top: 20px;"> Calling all our fabulous ladies who adore our in-house styling experience! Step into our salon and indulge in the ultimate pampering session with our talented stylists. Take a seat, gaze into the mirror, and let us work our magic to create the custom styling you’ve been dreaming of. We look forward to seeing you say goodbye to styling worries and hello to effortless glam with our hassle-free service
+    </p>
+    <div class="how">
+        <h3><b>How Our Wig-Styling Service Works</b></h3>
+        <div class="gift">
+           <div class="seee">
+             <img src="./check.png" height="50px">
+            <h4>Selection</h4>
+            <p>Choose the wig you want to be transformed by our team</p>
+           </div>
+           <div class="seee">
+             <img src="./giftbox.png" height="50px">
+            <h4>Send</h4>
+            <p>Drop your off at our salon or ship to us from anywhere</p>
+           </div>
+           <div class="seee">
+             <img src="./hairdresser.png" height="50px">
+            <h4>Styling</h4>
+            <p>Our team transform and style your wig and extension</p>
+           </div>
+           <div class="seee">
+             <img src="./delivery-truck.png" height="50px">
+            <h4>Selection</h4>
+            <p>Choose the wig you want to be transformed by our team</p>
+           </div>
+        </div>
+    </div>
+    <a href="./book.html">
+         <button id="bttn">Book Now >></button>
+    </a>
+   <a href="./home.html">
+        <button>Book Home Service >></button>
+   </a>
+    
+    
+</div>
+<script>
+    function toggleMenu() {
+      const nav = document.getElementById('navLinks');
+      nav.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>

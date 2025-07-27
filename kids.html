@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+  </head>
+<body>
+ <div id="mainHeader">
+     <nav class="navbar">
+    <div class="logo"><h1>G.Kalson</h1></div>
+    <button class="toggle-btn" onclick="toggleMenu()">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="./book.html">Book Appointment</a></li>
+    </ul>
+   </nav>
+   </div>
+    <div class="hato">
+    <h2>Kids Hair<span>Braids and Styling</span> Services</h2>
+    <p>We offer professional hair braiding and styling services tailored specifically for kids. Our skilled stylists create fun and trendy looks that kids love, making sure they leave feeling stylish and confident.</p>
+    <button>Book Now >></button>
+</div> 
+<div class="dis">
+    <h3>Fun, Safe &
+ For <br><span>Hassle-free Experience</span> Your Child at G.kalson </h3>
+    <div class="underline1"></div>
+    <p style="padding-top: 10px;">  We specialize in making hair styling a delightful experience for your child. Step into our cozy hair styling department, where our skilled stylists blend creativity with expertise to create hairstyles that reflect your child’s unique personality. From playful braids to stylish cuts, we’re here to bring their hair dreams to life.</p>
+    <p style="padding-top: 20px;"> At the Beauty G.Kalson Salon, we understand the importance of safety and comfort. That’s why we use gentle, child-friendly products and maintain a clean and inviting environment. Our friendly stylists are experienced in working with children, ensuring a relaxed and enjoyable experience for both little ones and parents. Come join us for a hair adventure filled with smiles, laughter, and of course, fabulous hairstyles that your child will love.
+    </p>
+    <a href="./book.html">
+         <button id="bttn">Book Now >></button>
+    </a>
+   <a href="./home.html">
+        <button>Book Home Service >></button>
+   </a>
+    
+    
+</div>
+<script>
+    function toggleMenu() {
+      const nav = document.getElementById('navLinks');
+      nav.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
